@@ -14,6 +14,7 @@
 		74DAFD0B1B437C1600DDD2FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DAFD0A1B437C1600DDD2FA /* Images.xcassets */; };
 		74DAFD0E1B437C1600DDD2FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74DAFD0C1B437C1600DDD2FA /* LaunchScreen.xib */; };
 		74DAFD1A1B437C1600DDD2FA /* demo01_Git_LocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DAFD191B437C1600DDD2FA /* demo01_Git_LocalTests.m */; };
+		74DAFD251B437F0200DDD2FA /* TestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DAFD241B437F0200DDD2FA /* TestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		74DAFD131B437C1600DDD2FA /* demo01-Git-LocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo01-Git-LocalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DAFD181B437C1600DDD2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74DAFD191B437C1600DDD2FA /* demo01_Git_LocalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo01_Git_LocalTests.m; sourceTree = "<group>"; };
+		74DAFD231B437F0200DDD2FA /* TestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGit.h; sourceTree = "<group>"; };
+		74DAFD241B437F0200DDD2FA /* TestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				74DAFD021B437C1600DDD2FA /* AppDelegate.m */,
 				74DAFD041B437C1600DDD2FA /* ViewController.h */,
 				74DAFD051B437C1600DDD2FA /* ViewController.m */,
+				74DAFD231B437F0200DDD2FA /* TestGit.h */,
+				74DAFD241B437F0200DDD2FA /* TestGit.m */,
 				74DAFD071B437C1600DDD2FA /* Main.storyboard */,
 				74DAFD0A1B437C1600DDD2FA /* Images.xcassets */,
 				74DAFD0C1B437C1600DDD2FA /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DAFD251B437F0200DDD2FA /* TestGit.m in Sources */,
 				74DAFD061B437C1600DDD2FA /* ViewController.m in Sources */,
 				74DAFD031B437C1600DDD2FA /* AppDelegate.m in Sources */,
 				74DAFD001B437C1600DDD2FA /* main.m in Sources */,
